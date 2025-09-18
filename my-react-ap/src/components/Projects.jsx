@@ -16,13 +16,21 @@ const Projects = () => {
             id: 2,
             title: "The Cairo Times",
             description: "A modern Android news application delivering real-time NY Times articles with Jetpack Compose UI, advanced search, category filtering, and seamless web integration.",
-            image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1139&q=80",
+            image: `${import.meta.env.BASE_URL}.png`,
             technologies: ["Kotlin", "Jetpack Compose", "Retrofit", "OkHttp", "NY Times API", "Material Design 3", "Navigation Component","StateFlow", "Gradle"],
             liveUrl: "#",
             githubUrl: "https://github.com/Nariman2005/The-Cairo-Times"
         },
         {
             id: 3,
+            title: "Weather Dashboard",
+            description: "A weather application that displays current and forecasted weather conditions for any location.",
+            image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1165&q=80",
+            technologies: ["JavaScript", "OpenWeather API", "HTML5", "CSS3"],
+            liveUrl: "#",
+            githubUrl: "#"
+        }, {
+            id: 4,
             title: "Weather Dashboard",
             description: "A weather application that displays current and forecasted weather conditions for any location.",
             image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1165&q=80",
