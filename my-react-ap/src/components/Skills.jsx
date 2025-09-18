@@ -4,31 +4,31 @@
 const Skills = () => {
     const skillCategories = [
         {
-            title: "Frontend",
-            skills: [
-                { name: "HTML/CSS", level: 90 },
-                { name: "JavaScript", level: 85 },
-                { name: "React", level: 80 },
-                { name: "Vue.js", level: 75 },
-                { name: "TypeScript", level: 70 }
+            "title": "Frontend",
+            "skills": [
+                { "name": "HTML/CSS", "level": 85 },
+                { "name": "JavaScript", "level": 85 },
+                { "name": "React", "level": 80 }
             ]
         },
         {
-            title: "Backend",
-            skills: [
-                { name: "Node.js", level: 75 },
-                { name: "Express", level: 70 },
-                { name: "Python", level: 65 },
-                { name: "MongoDB", level: 60 }
+            "title": "Backend",
+            "skills": [
+                { "name": "C#", "level": 80 },
+                { "name": "ASP.NET", "level": 75 },
+                { "name": "Entity Framework", "level": 70 },
+                { "name": "SQL Server", "level": 75 },
+                { "name": "Java", "level": 65 }
             ]
         },
         {
-            title: "Tools",
-            skills: [
-                { name: "Git", level: 85 },
-                { name: "Figma", level: 80 },
-                { name: "Webpack", level: 70 },
-                { name: "AWS", level: 60 }
+            "title": "Tools & Technologies",
+            "skills": [
+                { "name": "Git/GitHub", "level": 85 },
+                { "name": "Visual Studio", "level": 80 },
+                { "name": "Figma", "level": 75 },
+                { "name": "Jira", "level": 70 },
+                { "name": "AWS S3", "level": 65 }
             ]
         }
     ]

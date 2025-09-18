@@ -80,28 +80,7 @@ const Contact = () => {
                         </button>
                     </form>
 
-                    <div className="contact-info">
-                        <div className="contact-item">
-                            <span className="contact-label">Email</span>
-                            <a href="mailto:your.email@example.com" className="contact-value">
-                                your.email@example.com
-                            </a>
-                        </div>
-
-                        <div className="contact-item">
-                            <span className="contact-label">LinkedIn</span>
-                            <a href="https://linkedin.com/in/yourusername" className="contact-value">
-                                linkedin.com/in/yourusername
-                            </a>
-                        </div>
-
-                        <div className="contact-item">
-                            <span className="contact-label">GitHub</span>
-                            <a href="https://github.com/yourusername" className="contact-value">
-                                github.com/yourusername
-                            </a>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </section>

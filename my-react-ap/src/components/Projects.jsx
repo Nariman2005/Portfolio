@@ -13,31 +13,34 @@ const Projects = () => {
             githubUrl: "https://github.com/Nariman2005/PreGame"
         },
         {
-            id: 2,
+    id: 2,
+    title: "Secure File Sharing Platform",
+    description: "A secure web application that allows users to upload, encrypt, and share files with robust authentication and cloud storage integration. Features end-to-end encryption, user management, and secure file download capabilities.",
+    image: `${import.meta.env.BASE_URL}secure.png`,
+    technologies: ["Python", "Flask", "MySQL", "AWS S3", "Cryptography", "bcrypt", "HTML5", "CSS3", "Bootstrap"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Nariman2005/Secure-File-Sharing-Platform"
+},
+        {
+            id: 3,
             title: "The Cairo Times",
             description: "A modern Android news application delivering real-time NY Times articles with Jetpack Compose UI, advanced search, category filtering, and seamless web integration.",
-            image: `${import.meta.env.BASE_URL}.png`,
-            technologies: ["Kotlin", "Jetpack Compose", "Retrofit", "OkHttp", "NY Times API", "Material Design 3", "Navigation Component","StateFlow", "Gradle"],
+            image: `${import.meta.env.BASE_URL}image.png`,
+            technologies: ["Kotlin", "Jetpack Compose", "Retrofit", "OkHttp", "NY Times API", "Material Design 3", "Navigation Component", "StateFlow", "Gradle"],
             liveUrl: "#",
             githubUrl: "https://github.com/Nariman2005/The-Cairo-Times"
         },
         {
-            id: 3,
-            title: "Weather Dashboard",
-            description: "A weather application that displays current and forecasted weather conditions for any location.",
-            image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1165&q=80",
-            technologies: ["JavaScript", "OpenWeather API", "HTML5", "CSS3"],
-            liveUrl: "#",
-            githubUrl: "#"
-        }, {
+
             id: 4,
-            title: "Weather Dashboard",
-            description: "A weather application that displays current and forecasted weather conditions for any location.",
-            image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1165&q=80",
-            technologies: ["JavaScript", "OpenWeather API", "HTML5", "CSS3"],
-            liveUrl: "#",
-            githubUrl: "#"
-        }
+            title: "Stock Span Visualizer",
+            description: "A Python desktop application that calculates and visualizes stock spans using an efficient stack-based algorithm. Features multiple data input methods, real-time API integration, and interactive financial charts.",
+            image: `${import.meta.env.BASE_URL}stock.png`,
+            technologies: ["Python", "PyQt5", "Matplotlib", "Alpha Vantage API", "Stack Algorithm"],
+            liveUrl: "#", // Desktop application - no live URL
+            githubUrl: "https://github.com/Nariman2005/Stock-Span-Visualizer"
+
+        },
     ]
 
     return (
